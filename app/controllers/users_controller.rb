@@ -27,9 +27,4 @@ class UsersController < ApplicationController
        render :new
      end
    end
-
-   def confirm
-     @user = User.new
-
-   end
 end
